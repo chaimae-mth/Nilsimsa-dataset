@@ -1,0 +1,1042 @@
+[
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1820",
+      "ADV_IND_length": "24",
+      "ADV_IND_entry.length_1": "14",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfcd2",
+      "SCAN_RSP_advertising_header": "0x2204",
+      "SCAN_RSP_length": "34",
+      "advertising_address": "b0:c7:de:c4:34:22",
+      "scan_responce_data": "0a:08:43:41:4e:4f:4e:2d:43:41:4d:10:ff:a9:0b:01:01:00:0b:05:00:0a:22:34:c4:de:c7:b0",
+      "SCAN_RSP_entry.length_2": "10",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "CANON-CAM1",
+      "SCAN_RSP_entry.length_3": "16",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x0ba9",
+      "crc": "0xabc287",
+      "Channel_sequence": [38, 39, 37], 
+      "Event_interval": "0.2612",
+      "Advertising_delay": "0.015"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0xD6AF-0xD6B0",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x248E",
+          "char_value_handle": "0x4D37",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "4e 46 3f 33 d6 a8 ab"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0xF86F-0xF874",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x7ECF",
+          "char_value_handle": "0x6BE8",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "43 41 4e 4f 4e 2d 43 41 4d 31"
+        },
+        "Appearance": {
+          "handle": "0x4F68",
+          "char_value_handle": "0x0AEF",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "C1 04"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x50E1",
+          "char_value_handle": "0xED32",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "18 00 28 00 00 00 E8 03"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x186E-0x1877",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x4C66",
+          "Char_Value_Handle": "0x2759",
+          "value": "43 61 6e 6f 6e"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0xBC4E",
+          "Char_Value_Handle": "0x67F5",
+          "value": "45 4f 53 2d 52 35"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0xDE37",
+          "Char_Value_Handle": "0xE716",
+          "value": "31 2e 30 2e 34"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x26BB",
+          "Char_Value_Handle": "0x8070",
+          "value": "b0 c7 de ff fe c4 34 22"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0xB547",
+          "Char_Value_Handle": "0x0ADF",
+          "value": "01 a9 0b 01 02 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x0901-0x090A",
+        "uuid": "a9b0c001-d234-4e56-b7c8-1f2e3d4a5b6c"
+      }
+    },
+    "Device_Type": "Camera",
+    "Manufacturer": "Canon",
+    "Record_ID": 1
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1A10",
+      "ADV_IND_length": "18",
+      "ADV_IND_entry.length_1": "10",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfe0f",
+      "SCAN_RSP_advertising_header": "0x1E08",
+      "SCAN_RSP_length": "28",
+      "advertising_address": "a4:c1:38:22:bb:01",
+      "scan_responce_data": "09:08:50:48:49:4c:49:50:53:4c:0a:ff:6c:00:02:01:06:03:02:0f:fe:c1:38:a4:01:bb:22",
+      "SCAN_RSP_entry.length_2": "09",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "PhilipsHue1",
+      "SCAN_RSP_entry.length_3": "10",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x006c",
+      "crc": "0x3f1a2b",
+      "Channel_sequence": [37, 38, 39],
+      "Event_interval": "0.5120",
+      "Advertising_delay": "0.010"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0xA100-0xA101",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x1102",
+          "char_value_handle": "0x1103",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0001-0x0007",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x0002",
+          "char_value_handle": "0x0003",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "50 68 69 6c 69 70 73 48 75 65 31"
+        },
+        "Appearance": {
+          "handle": "0x0004",
+          "char_value_handle": "0x0005",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "41 05"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x0006",
+          "char_value_handle": "0x0007",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "50 00 A0 00 00 00 58 02"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0020-0x002C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0021",
+          "Char_Value_Handle": "0x0022",
+          "value": "50 68 69 6c 69 70 73"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0023",
+          "Char_Value_Handle": "0x0024",
+          "value": "4c 54 47 30 31 30 2f 30 31"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0025",
+          "Char_Value_Handle": "0x0026",
+          "value": "31 2e 35 30 2e 32"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0027",
+          "Char_Value_Handle": "0x0028",
+          "value": "a4 c1 38 ff fe 22 bb 01"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0029",
+          "Char_Value_Handle": "0x002A",
+          "value": "01 6c 00 20 03 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x0030-0x003A",
+        "uuid": "932c32bd-0002-47a2-835a-a8d455b859dd"
+      }
+    },
+    "Device_Type": "Smart Light Bulb",
+    "Manufacturer": "Philips",
+    "Record_ID": 2
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x2010",
+      "ADV_IND_length": "20",
+      "ADV_IND_entry.length_1": "12",
+      "ADV_IND_entry.type_1": "0xff",
+      "ADV_IND_entry.uuid_16": "0x0075",
+      "SCAN_RSP_advertising_header": "0x1C06",
+      "SCAN_RSP_length": "30",
+      "advertising_address": "e8:7f:6b:11:cc:04",
+      "scan_responce_data": "0b:08:57:48:2d:31:30:30:30:58:4d:32:0c:ff:75:00:02:01:02:07:03:e0:fe:e0:ff:6b:7f:e8",
+      "SCAN_RSP_entry.length_2": "11",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "WH-1000XM2",
+      "SCAN_RSP_entry.length_3": "12",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x0075",
+      "crc": "0x1d3c4e",
+      "Channel_sequence": [39, 37, 38],
+      "Event_interval": "1.2800",
+      "Advertising_delay": "0.020"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0100-0x0101",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x0102",
+          "char_value_handle": "0x0103",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0200-0x020A",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x0201",
+          "char_value_handle": "0x0202",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "57 48 2d 31 30 30 30 58 4d 32"
+        },
+        "Appearance": {
+          "handle": "0x0203",
+          "char_value_handle": "0x0204",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "41 04"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x0205",
+          "char_value_handle": "0x0206",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "10 00 28 00 01 00 90 01"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0300-0x030C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0301",
+          "Char_Value_Handle": "0x0302",
+          "value": "53 6f 6e 79"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0303",
+          "Char_Value_Handle": "0x0304",
+          "value": "57 48 2d 31 30 30 30 58 4d 32"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0305",
+          "Char_Value_Handle": "0x0306",
+          "value": "34 2e 35 2e 32"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0307",
+          "Char_Value_Handle": "0x0308",
+          "value": "e8 7f 6b ff fe 11 cc 04"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0309",
+          "Char_Value_Handle": "0x030A",
+          "value": "01 75 00 30 09 00 02"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x0400-0x040A",
+        "uuid": "96cc203e-5068-46ad-b32d-e316f5e069ba"
+      }
+    },
+    "Device_Type": "Headset",
+    "Manufacturer": "Sony",
+    "Record_ID": 3
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1610",
+      "ADV_IND_length": "22",
+      "ADV_IND_entry.length_1": "13",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfd50",
+      "SCAN_RSP_advertising_header": "0x1A04",
+      "SCAN_RSP_length": "26",
+      "advertising_address": "34:ab:95:ff:10:88",
+      "scan_responce_data": "0c:08:42:52:4c:2d:4d:4f:54:49:4f:4e:31:0a:ff:b4:03:01:01:00:08:04:00:95:ab:34:88",
+      "SCAN_RSP_entry.length_2": "12",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "BRL-MOTION1",
+      "SCAN_RSP_entry.length_3": "10",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x03b4",
+      "crc": "0x7f2a11",
+      "Channel_sequence": [37, 39, 38],
+      "Event_interval": "1.0240",
+      "Advertising_delay": "0.025"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0500-0x0501",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x0502",
+          "char_value_handle": "0x0503",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0600-0x060A",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x0601",
+          "char_value_handle": "0x0602",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "42 52 4c 2d 4d 4f 54 49 4f 4e 31"
+        },
+        "Appearance": {
+          "handle": "0x0603",
+          "char_value_handle": "0x0604",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "81 07"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x0605",
+          "char_value_handle": "0x0606",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "40 00 80 00 02 00 B0 04"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0700-0x070C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0701",
+          "Char_Value_Handle": "0x0702",
+          "value": "42 72 6f 61 64 4c 69 6e 6b"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0703",
+          "Char_Value_Handle": "0x0704",
+          "value": "52 4d 34 43 2d 35 53 32 30"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0705",
+          "Char_Value_Handle": "0x0706",
+          "value": "32 2e 31 2e 30"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0707",
+          "Char_Value_Handle": "0x0708",
+          "value": "34 ab 95 ff fe ff 10 88"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0709",
+          "Char_Value_Handle": "0x070A",
+          "value": "01 b4 03 05 08 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x0800-0x080A",
+        "uuid": "e3bfa901-7a12-43ab-8c2d-3f4e5a6b7c8d"
+      }
+    },
+    "Device_Type": "Motion Detector",
+    "Manufacturer": "BroadLink",
+    "Record_ID": 4
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1412",
+      "ADV_IND_length": "16",
+      "ADV_IND_entry.length_1": "09",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfe95",
+      "SCAN_RSP_advertising_header": "0x1602",
+      "SCAN_RSP_length": "22",
+      "advertising_address": "58:2d:34:ab:ef:12",
+      "scan_responce_data": "0a:08:47:4f:56:45:45:5f:48:35:30:07:ff:ec:00:01:01:00:03:01:34:ab:58:12",
+      "SCAN_RSP_entry.length_2": "10",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "GOVEE_H500",
+      "SCAN_RSP_entry.length_3": "07",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x00ec",
+      "crc": "0x5e8b3f",
+      "Channel_sequence": [38, 37, 39],
+      "Event_interval": "0.6400",
+      "Advertising_delay": "0.010"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0900-0x0901",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x0902",
+          "char_value_handle": "0x0903",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0A00-0x0A08",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x0A01",
+          "char_value_handle": "0x0A02",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "47 4f 56 45 45 5f 48 35 30 30"
+        },
+        "Appearance": {
+          "handle": "0x0A03",
+          "char_value_handle": "0x0A04",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "41 05"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x0A05",
+          "char_value_handle": "0x0A06",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "50 00 A0 00 00 00 20 03"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0B00-0x0B0C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0B01",
+          "Char_Value_Handle": "0x0B02",
+          "value": "47 6f 76 65 65"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0B03",
+          "Char_Value_Handle": "0x0B04",
+          "value": "48 35 30 30 33"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0B05",
+          "Char_Value_Handle": "0x0B06",
+          "value": "31 2e 30 2e 36"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0B07",
+          "Char_Value_Handle": "0x0B08",
+          "value": "58 2d 34 ff fe ab ef 12"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0B09",
+          "Char_Value_Handle": "0x0B0A",
+          "value": "01 ec 00 10 05 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x0C00-0x0C0A",
+        "uuid": "00010203-0405-0607-0809-0a0b0c0d1910"
+      }
+    },
+    "Device_Type": "Smart Light Bulb",
+    "Manufacturer": "Govee",
+    "Record_ID": 5
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1C14",
+      "ADV_IND_length": "28",
+      "ADV_IND_entry.length_1": "16",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfff0",
+      "SCAN_RSP_advertising_header": "0x2208",
+      "SCAN_RSP_length": "32",
+      "advertising_address": "d8:a0:1d:44:77:3b",
+      "scan_responce_data": "0d:08:4d:49:42:41:4e:44:36:2d:34:37:37:33:0e:ff:57:02:01:02:04:05:06:07:08:09:d8:a0:1d",
+      "SCAN_RSP_entry.length_2": "13",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "MIBAND6-4773",
+      "SCAN_RSP_entry.length_3": "14",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x0257",
+      "crc": "0x2c9f4a",
+      "Channel_sequence": [37, 38, 39],
+      "Event_interval": "0.3200",
+      "Advertising_delay": "0.010"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0D00-0x0D01",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x0D02",
+          "char_value_handle": "0x0D03",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0E00-0x0E08",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x0E01",
+          "char_value_handle": "0x0E02",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "4d 49 42 41 4e 44 36 2d 34 37 37 33"
+        },
+        "Appearance": {
+          "handle": "0x0E03",
+          "char_value_handle": "0x0E04",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "C1 03"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x0E05",
+          "char_value_handle": "0x0E06",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "06 00 0C 00 00 00 48 00"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x0F00-0x0F0C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0F01",
+          "Char_Value_Handle": "0x0F02",
+          "value": "58 69 61 6f 6d 69"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0F03",
+          "Char_Value_Handle": "0x0F04",
+          "value": "58 49 41 4f 4d 49 2d 42 41 4e 44 36"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0F05",
+          "Char_Value_Handle": "0x0F06",
+          "value": "31 2e 30 2e 31 2e 38"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0F07",
+          "Char_Value_Handle": "0x0F08",
+          "value": "d8 a0 1d ff fe 44 77 3b"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x0F09",
+          "Char_Value_Handle": "0x0F0A",
+          "value": "01 57 02 06 00 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x1000-0x100A",
+        "uuid": "0000fee0-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    "Device_Type": "Fitness Tracker",
+    "Manufacturer": "Xiaomi",
+    "Record_ID": 6
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1216",
+      "ADV_IND_length": "14",
+      "ADV_IND_entry.length_1": "07",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfe6f",
+      "SCAN_RSP_advertising_header": "0x1404",
+      "SCAN_RSP_length": "18",
+      "advertising_address": "7c:64:56:bc:3a:19",
+      "scan_responce_data": "08:08:53:45:4e:53:49:52:4f:06:ff:4f:01:01:00:03:02:64:7c:56:19",
+      "SCAN_RSP_entry.length_2": "08",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "SENSIRO",
+      "SCAN_RSP_entry.length_3": "06",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x014f",
+      "crc": "0x3d7a19",
+      "Channel_sequence": [39, 38, 37],
+      "Event_interval": "2.5600",
+      "Advertising_delay": "0.030"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1100-0x1101",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x1102",
+          "char_value_handle": "0x1103",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1200-0x1208",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x1201",
+          "char_value_handle": "0x1202",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "53 45 4e 53 49 52 4f"
+        },
+        "Appearance": {
+          "handle": "0x1203",
+          "char_value_handle": "0x1204",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "00 05"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x1205",
+          "char_value_handle": "0x1206",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "60 00 C0 00 04 00 E0 07"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1300-0x130C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1301",
+          "Char_Value_Handle": "0x1302",
+          "value": "53 65 6e 73 69 72 69 6f 6e"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1303",
+          "Char_Value_Handle": "0x1304",
+          "value": "53 48 54 33 31 2d 42 4c 45"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1305",
+          "Char_Value_Handle": "0x1306",
+          "value": "32 2e 30 2e 30"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1307",
+          "Char_Value_Handle": "0x1308",
+          "value": "7c 64 56 ff fe bc 3a 19"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1309",
+          "Char_Value_Handle": "0x130A",
+          "value": "01 4f 01 01 04 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x1400-0x140A",
+        "uuid": "ac037ffe-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    "Device_Type": "Temperature & Humidity Sensor",
+    "Manufacturer": "Sensirion",
+    "Record_ID": 7
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x2018",
+      "ADV_IND_length": "26",
+      "ADV_IND_entry.length_1": "15",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfd6f",
+      "SCAN_RSP_advertising_header": "0x2006",
+      "SCAN_RSP_length": "30",
+      "advertising_address": "c0:29:f5:77:22:aa",
+      "scan_responce_data": "0e:08:47:41:52:4d:49:4e:2d:48 52:4d:32:32:31:0f:ff:06:00:02:01:04:09:05:08:01:29:c0:f5:77",
+      "SCAN_RSP_entry.length_2": "14",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "GARMIN-HRM221",
+      "SCAN_RSP_entry.length_3": "15",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x0006",
+      "crc": "0x91d3f2",
+      "Channel_sequence": [38, 39, 37],
+      "Event_interval": "0.6720",
+      "Advertising_delay": "0.012"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1500-0x1501",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x1502",
+          "char_value_handle": "0x1503",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1600-0x1608",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x1601",
+          "char_value_handle": "0x1602",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "47 41 52 4d 49 4e 2d 48 52 4d 32 32 31"
+        },
+        "Appearance": {
+          "handle": "0x1603",
+          "char_value_handle": "0x1604",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "41 03"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x1605",
+          "char_value_handle": "0x1606",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "10 00 1E 00 00 00 64 00"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1700-0x170C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1701",
+          "Char_Value_Handle": "0x1702",
+          "value": "47 61 72 6d 69 6e"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1703",
+          "Char_Value_Handle": "0x1704",
+          "value": "48 52 4d 2d 44 75 61 6c 32 32 31"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1705",
+          "Char_Value_Handle": "0x1706",
+          "value": "33 2e 32 30 2e 30"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1707",
+          "Char_Value_Handle": "0x1708",
+          "value": "c0 29 f5 ff fe 77 22 aa"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1709",
+          "Char_Value_Handle": "0x170A",
+          "value": "01 06 00 04 09 00 03"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x1800-0x180A",
+        "uuid": "6a4e2401-667b-11e3-949a-0800200c9a66"
+      }
+    },
+    "Device_Type": "Heart Rate Monitor",
+    "Manufacturer": "Garmin",
+    "Record_ID": 8
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1818",
+      "ADV_IND_length": "20",
+      "ADV_IND_entry.length_1": "11",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfe9f",
+      "SCAN_RSP_advertising_header": "0x1C0A",
+      "SCAN_RSP_length": "28",
+      "advertising_address": "ac:23:3f:88:bc:50",
+      "scan_responce_data": "0b:08:59:41:4c:45:2d:4c:4f:43:4b:31:0a:ff:e0:01:01:01:02:04:08:10:3f:23:ac:50:bc",
+      "SCAN_RSP_entry.length_2": "11",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "YALE-LOCK1",
+      "SCAN_RSP_entry.length_3": "10",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x01e0",
+      "crc": "0x4b2e67",
+      "Channel_sequence": [37, 39, 38],
+      "Event_interval": "1.5360",
+      "Advertising_delay": "0.020"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1900-0x1901",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x1902",
+          "char_value_handle": "0x1903",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1A00-0x1A08",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x1A01",
+          "char_value_handle": "0x1A02",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "59 41 4c 45 2d 4c 4f 43 4b 31"
+        },
+        "Appearance": {
+          "handle": "0x1A03",
+          "char_value_handle": "0x1A04",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "01 07"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x1A05",
+          "char_value_handle": "0x1A06",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "30 00 60 00 01 00 F4 01"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1B00-0x1B0C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1B01",
+          "Char_Value_Handle": "0x1B02",
+          "value": "59 61 6c 65"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1B03",
+          "Char_Value_Handle": "0x1B04",
+          "value": "59 52 44 32 32 30 2f 4e 52"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1B05",
+          "Char_Value_Handle": "0x1B06",
+          "value": "31 2e 30 2e 33"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1B07",
+          "Char_Value_Handle": "0x1B08",
+          "value": "ac 23 3f ff fe 88 bc 50"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1B09",
+          "Char_Value_Handle": "0x1B0A",
+          "value": "01 e0 01 07 00 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x1C00-0x1C0A",
+        "uuid": "fe24f700-dab4-11e1-9b23-0800200c9a66"
+      }
+    },
+    "Device_Type": "Smart Lock",
+    "Manufacturer": "Yale",
+    "Record_ID": 9
+  },
+  {
+    "Broadcast_features": {
+      "ADV_IND_advertising_header": "0x1614",
+      "ADV_IND_length": "18",
+      "ADV_IND_entry.length_1": "10",
+      "ADV_IND_entry.type_1": "0x16",
+      "ADV_IND_entry.uuid_16": "0xfff0",
+      "SCAN_RSP_advertising_header": "0x1A06",
+      "SCAN_RSP_length": "24",
+      "advertising_address": "11:22:33:aa:bb:cc",
+      "scan_responce_data": "0c:08:54:50:4c:49:4e:4b:2d:54:50:39:30:08:ff:2c:04:01:02:00:05:08:33:22:11:cc:bb",
+      "SCAN_RSP_entry.length_2": "12",
+      "SCAN_RSP_entry.type_2": "0x08",
+      "SCAN_RSP_entry.device_name": "TPLINK-TP90",
+      "SCAN_RSP_entry.length_3": "08",
+      "SCAN_RSP_entry.type_3": "0xff",
+      "SCAN_RSP_entry.company_id": "0x042c",
+      "crc": "0x8c1f2d",
+      "Channel_sequence": [38, 37, 39],
+      "Event_interval": "0.9600",
+      "Advertising_delay": "0.018"
+    },
+    "GATT_service": {
+      "UUID": "00001801-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1D00-0x1D01",
+      "Characteristics": {
+        "Service_Changed": {
+          "handle": "0x1D02",
+          "char_value_handle": "0x1D03",
+          "uuid": "00002a05-0000-1000-8000-00805f9b34fb",
+          "value": "01 00 ff ff"
+        }
+      }
+    },
+    "GAP_service": {
+      "UUID": "00001800-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1E00-0x1E08",
+      "Characteristics": {
+        "Device_Name": {
+          "handle": "0x1E01",
+          "char_value_handle": "0x1E02",
+          "uuid": "00002a00-0000-1000-8000-00805f9b34fb",
+          "Value": "54 50 4c 49 4e 4b 2d 54 50 39 30"
+        },
+        "Appearance": {
+          "handle": "0x1E03",
+          "char_value_handle": "0x1E04",
+          "uuid": "00002a01-0000-1000-8000-00805f9b34fb",
+          "Value": "00 00"
+        },
+        "Peripheral_Preferred_Connection_Parameters": {
+          "handle": "0x1E05",
+          "char_value_handle": "0x1E06",
+          "uuid": "00002a04-0000-1000-8000-00805f9b34fb",
+          "Value": "20 00 40 00 00 00 C8 00"
+        }
+      }
+    },
+    "DSI_service": {
+      "UUID": "0000180a-0000-1000-8000-00805f9b34fb",
+      "Group_handle": "0x1F00-0x1F0C",
+      "Characteristics": {
+        "Manufacturer_Name_String": {
+          "UUID": "00002a29-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1F01",
+          "Char_Value_Handle": "0x1F02",
+          "value": "54 50 2d 4c 69 6e 6b"
+        },
+        "Model_Number_String": {
+          "UUID": "00002a24-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1F03",
+          "Char_Value_Handle": "0x1F04",
+          "value": "54 61 70 6f 4c 69 6e 6b 50 39 30"
+        },
+        "Firmware_Revision_String": {
+          "UUID": "00002a26-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1F05",
+          "Char_Value_Handle": "0x1F06",
+          "value": "31 2e 30 2e 31 33"
+        },
+        "System_ID": {
+          "UUID": "00002a23-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1F07",
+          "Char_Value_Handle": "0x1F08",
+          "value": "11 22 33 ff fe aa bb cc"
+        },
+        "PnP_ID": {
+          "UUID": "00002a50-0000-1000-8000-00805f9b34fb",
+          "Handle": "0x1F09",
+          "Char_Value_Handle": "0x1F0A",
+          "value": "01 2c 04 09 00 00 01"
+        }
+      }
+    },
+    "custom_service": {
+      "Custom_service1": {
+        "handle": "0x2000-0x200A",
+        "uuid": "e63d1400-c35a-4b7e-88d4-a4563b0c5e5e"
+      }
+    },
+    "Device_Type": "Smart Plug",
+    "Manufacturer": "TP-Link",
+    "Record_ID": 10
+  }
+]
